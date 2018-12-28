@@ -1,0 +1,6 @@
+framework module Pods_MLRefreshSDK_Example {
+  umbrella header "Pods-MLRefreshSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

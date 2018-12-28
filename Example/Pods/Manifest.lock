@@ -1,0 +1,16 @@
+PODS:
+  - MLRefreshSDK (0.1.0)
+
+DEPENDENCIES:
+  - MLRefreshSDK (from `../`)
+
+EXTERNAL SOURCES:
+  MLRefreshSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLRefreshSDK: 30ba7e026eccb961bed2034a587de6bd67248fdf
+
+PODFILE CHECKSUM: b55086c2beb6082674987a55fdbb864e64596ece
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,22 @@
+{
+  "name": "MLRefreshSDK",
+  "version": "0.1.0",
+  "summary": "A short description of MLRefreshSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangsanyan/MLRefreshSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangsanyan": "valio@mem853.com"
+  },
+  "source": {
+    "git": "https://github.com/wangsanyan/MLRefreshSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MLRefreshSDK/Classes/**/*"
+}
