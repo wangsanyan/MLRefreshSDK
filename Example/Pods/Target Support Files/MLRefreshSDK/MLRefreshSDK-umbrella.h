@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "AnimationFooterView.h"
+#import "MLRefreshAnimationFooter.h"
+#import "MLRefreshAnimationHeader.h"
+#import "RefreshModel.h"
 
 FOUNDATION_EXPORT double MLRefreshSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char MLRefreshSDKVersionString[];

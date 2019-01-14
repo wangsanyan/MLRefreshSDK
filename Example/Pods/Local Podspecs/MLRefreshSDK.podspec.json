@@ -16,7 +16,22 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "MLRefreshSDK/Classes/**/*"
+  "source_files": "MLRefreshSDK/**/*.{h,m}",
+  "public_header_files": "MLRefreshSDK/**/*.h",
+  "resource_bundles": {
+    "MLRefreshSDK": [
+      "MLRefreshSDK/**/*.{png,xml,plist,bundle,xcassets,storyboard,xib,lproj,gif}"
+    ]
+  },
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "KWFoundation": [
+
+    ]
+  },
+  "static_framework": true
 }

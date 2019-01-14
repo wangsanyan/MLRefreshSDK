@@ -1,6 +1,10 @@
 use_frameworks!
+platform :ios, '9.0'
+inhibit_all_warnings!
+install! 'cocoapods', :deterministic_uuids => false
 
-platform :ios, '8.0'
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://gitee.com/vinny/MLSpecs.git'
 
 target 'MLRefreshSDK_Example' do
   pod 'MLRefreshSDK', :path => '../'

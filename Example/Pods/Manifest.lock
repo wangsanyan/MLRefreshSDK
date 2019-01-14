@@ -1,16 +1,82 @@
 PODS:
-  - MLRefreshSDK (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking-Synchronous (1.1.0):
+    - AFNetworking-Synchronous/3.x (= 1.1.0)
+  - AFNetworking-Synchronous/3.x (1.1.0):
+    - AFNetworking (~> 3.0)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - KWFoundation (0.0.1):
+    - KWFoundation/Category (= 0.0.1)
+    - KWFoundation/KWCommonConfigure (= 0.0.1)
+    - KWFoundation/KWContext (= 0.0.1)
+    - KWFoundation/KWCountdownButton (= 0.0.1)
+    - KWFoundation/KWExtendVC (= 0.0.1)
+    - KWFoundation/KWNetwork (= 0.0.1)
+    - KWFoundation/KWProgressHUD (= 0.0.1)
+    - KWFoundation/NavigationItemView (= 0.0.1)
+  - KWFoundation/Category (0.0.1):
+    - KWFoundation/KWCommonConfigure
+  - KWFoundation/KWCommonConfigure (0.0.1)
+  - KWFoundation/KWContext (0.0.1):
+    - KWFoundation/KWCommonConfigure
+    - SDWebImage (= 4.4.2)
+  - KWFoundation/KWCountdownButton (0.0.1)
+  - KWFoundation/KWExtendVC (0.0.1):
+    - KWFoundation/KWCommonConfigure
+    - KWFoundation/NavigationItemView
+  - KWFoundation/KWNetwork (0.0.1):
+    - AFNetworking
+    - AFNetworking-Synchronous
+    - KWFoundation/KWCommonConfigure
+  - KWFoundation/KWProgressHUD (0.0.1):
+    - KWFoundation/Category
+    - KWFoundation/KWCommonConfigure
+  - KWFoundation/NavigationItemView (0.0.1)
+  - MJRefresh (3.1.15.7)
+  - MLRefreshSDK (0.1.0):
+    - KWFoundation
+    - MJRefresh
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - MLRefreshSDK (from `../`)
+
+SPEC REPOS:
+  https://gitee.com/vinny/MLSpecs.git:
+    - KWFoundation
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AFNetworking-Synchronous
+    - MJRefresh
+    - SDWebImage
 
 EXTERNAL SOURCES:
   MLRefreshSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MLRefreshSDK: 30ba7e026eccb961bed2034a587de6bd67248fdf
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AFNetworking-Synchronous: 61b98fb931b114b0da2b243957ea533e2954c2a2
+  KWFoundation: 05e5380c6cbe684c12bd3fca034995c2aad58382
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MLRefreshSDK: ac86ed06fbd7848187638f8b68efbe314458afcf
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
-PODFILE CHECKSUM: b55086c2beb6082674987a55fdbb864e64596ece
+PODFILE CHECKSUM: 46bb853bebc5c9708c0fb8c42c1595a755c0c224
 
 COCOAPODS: 1.5.3

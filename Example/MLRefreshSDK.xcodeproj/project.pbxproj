@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4355332F21E87A8D001F5F81 /* DropDownRefreshDynamicDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4355332D21E87A8C001F5F81 /* DropDownRefreshDynamicDiagram.gif */; };
+		4355333021E87A8D001F5F81 /* FullScreenLoadingDynamicGraph.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4355332E21E87A8C001F5F81 /* FullScreenLoadingDynamicGraph.gif */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -41,6 +43,8 @@
 		1C1237D3D93CCC6E1A4F2FAE /* Pods-MLRefreshSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRefreshSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLRefreshSDK_Tests/Pods-MLRefreshSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32828B56C4B8D7E0389839B9 /* Pods_MLRefreshSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLRefreshSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA4868E2F58F0E720FC34AD /* Pods_MLRefreshSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLRefreshSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4355332D21E87A8C001F5F81 /* DropDownRefreshDynamicDiagram.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DropDownRefreshDynamicDiagram.gif; sourceTree = "<group>"; };
+		4355332E21E87A8C001F5F81 /* FullScreenLoadingDynamicGraph.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FullScreenLoadingDynamicGraph.gif; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MLRefreshSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLRefreshSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,11 +65,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73D6F61B8D61032D29BC7D83 /* MLRefreshSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MLRefreshSDK.podspec; path = ../MLRefreshSDK.podspec; sourceTree = "<group>"; };
-		7BA3DB5209ABB0F811708B40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		73D6F61B8D61032D29BC7D83 /* MLRefreshSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MLRefreshSDK.podspec; path = ../MLRefreshSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7BA3DB5209ABB0F811708B40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A30619F97FB1C32C02B5821A /* Pods-MLRefreshSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRefreshSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLRefreshSDK_Example/Pods-MLRefreshSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F0BFEF97288BF7750A25B74A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0BFEF97288BF7750A25B74A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F5A84805A27C584217588CA4 /* Pods-MLRefreshSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRefreshSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLRefreshSDK_Tests/Pods-MLRefreshSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +142,8 @@
 				6003F5A5195388D20070C39A /* MLViewController.h */,
 				6003F5A6195388D20070C39A /* MLViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				4355332D21E87A8C001F5F81 /* DropDownRefreshDynamicDiagram.gif */,
+				4355332E21E87A8C001F5F81 /* FullScreenLoadingDynamicGraph.gif */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -208,6 +214,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				B779B3763434FBEC2A6C0099 /* [CP] Embed Pods Frameworks */,
+				214D4EC3D9B85112B6699EDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -277,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				4355333021E87A8D001F5F81 /* FullScreenLoadingDynamicGraph.gif in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				4355332F21E87A8D001F5F81 /* DropDownRefreshDynamicDiagram.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,15 +308,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MLRefreshSDK_Example-checkManifestLockResult.txt",
 			);
@@ -316,22 +321,44 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		214D4EC3D9B85112B6699EDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MLRefreshSDK_Example/Pods-MLRefreshSDK_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MLRefreshSDK/MLRefreshSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MLRefreshSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLRefreshSDK_Example/Pods-MLRefreshSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B779B3763434FBEC2A6C0099 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MLRefreshSDK_Example/Pods-MLRefreshSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MLRefreshSDK/MLRefreshSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking-Synchronous/AFNetworking_Synchronous.framework",
+				"${BUILT_PRODUCTS_DIR}/KWFoundation/KWFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLRefreshSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking_Synchronous.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KWFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -343,15 +370,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MLRefreshSDK_Tests-checkManifestLockResult.txt",
 			);
@@ -496,6 +519,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A30619F97FB1C32C02B5821A /* Pods-MLRefreshSDK_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLRefreshSDK/MLRefreshSDK-Prefix.pch";
@@ -511,6 +535,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0286BA94D04B644C707D9982 /* Pods-MLRefreshSDK_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MLRefreshSDK/MLRefreshSDK-Prefix.pch";
