@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4355332F21E87A8D001F5F81 /* DropDownRefreshDynamicDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4355332D21E87A8C001F5F81 /* DropDownRefreshDynamicDiagram.gif */; };
-		4355333021E87A8D001F5F81 /* FullScreenLoadingDynamicGraph.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4355332E21E87A8C001F5F81 /* FullScreenLoadingDynamicGraph.gif */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -43,8 +41,6 @@
 		1C1237D3D93CCC6E1A4F2FAE /* Pods-MLRefreshSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLRefreshSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLRefreshSDK_Tests/Pods-MLRefreshSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		32828B56C4B8D7E0389839B9 /* Pods_MLRefreshSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLRefreshSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA4868E2F58F0E720FC34AD /* Pods_MLRefreshSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLRefreshSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4355332D21E87A8C001F5F81 /* DropDownRefreshDynamicDiagram.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DropDownRefreshDynamicDiagram.gif; sourceTree = "<group>"; };
-		4355332E21E87A8C001F5F81 /* FullScreenLoadingDynamicGraph.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FullScreenLoadingDynamicGraph.gif; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MLRefreshSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLRefreshSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -142,8 +138,6 @@
 				6003F5A5195388D20070C39A /* MLViewController.h */,
 				6003F5A6195388D20070C39A /* MLViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				4355332D21E87A8C001F5F81 /* DropDownRefreshDynamicDiagram.gif */,
-				4355332E21E87A8C001F5F81 /* FullScreenLoadingDynamicGraph.gif */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -284,10 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				4355333021E87A8D001F5F81 /* FullScreenLoadingDynamicGraph.gif in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				4355332F21E87A8D001F5F81 /* DropDownRefreshDynamicDiagram.gif in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

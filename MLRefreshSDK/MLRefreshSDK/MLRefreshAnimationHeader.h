@@ -14,7 +14,7 @@ typedef RefreshModel *(^ChangedContentBlock)(RefreshState state);
 
 /**
  **  refreshState  刷新控件样式
- **  changedContentBlock  刷新控件更换的数据
+ **  changedContentBlock  刷新控件更换的数据   不传值则使用模块默认数据
  **  refrshingBlock  刷新控件的刷新事件
  **/
 + (instancetype)headerWithRefreshState:(RefreshState)refreshState

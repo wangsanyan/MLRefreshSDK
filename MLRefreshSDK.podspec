@@ -55,8 +55,8 @@ TODO: Add long description of the pod here.
 #pod spec lint --sources=gitee-vinny-mlspecs,master --allow-warnings --use-libraries
 #
 # 提交使用命令
-# pod repo push gitee-vinny-mlspecs MLShareSDK.podspec --sources=gitee-vinny-mlspecs,master --allow-warnings --use-libraries
+# pod repo push gitee-vinny-mlspecs MLRefreshSDK.podspec --sources=gitee-vinny-mlspecs,master --allow-warnings --use-libraries
 #
-#pod package MLShareSDK.podspec --force --no-mangle --spec-sources=https://gitee.com/vinny/MLSpecs.git,https://github.com/CocoaPods/Specs.git
+#pod package MLRefreshSDK.podspec --force --no-mangle --spec-sources=https://gitee.com/vinny/MLSpecs.git,https://github.com/CocoaPods/Specs.git
 #
 end

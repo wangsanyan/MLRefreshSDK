@@ -227,8 +227,8 @@
 		000000002680 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000002670 /* SDWebImage.framework */; };
 		0000000026B0 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000000002610 /* AFNetworking.framework */; };
 		0000000026F0 /* AFNetworking_Synchronous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000026E0 /* AFNetworking_Synchronous.framework */; };
-		43132E5C21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 43132E5B21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif */; };
-		43132E5D21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 43132E5B21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif */; };
+		43A7B7D421EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 43A7B7D321EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif */; };
+		43A7B7D521EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif in Resources */ = {isa = PBXBuildFile; fileRef = 43A7B7D321EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -604,7 +604,7 @@
 		000000002610 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		000000002670 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0000000026E0 /* AFNetworking_Synchronous.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking_Synchronous.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43132E5B21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = DropDownRefreshDynamicDiagram.gif; path = Example/MLRefreshSDK/DropDownRefreshDynamicDiagram.gif; sourceTree = "<group>"; };
+		43A7B7D321EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = DropDownRefreshDynamicDiagram.gif; path = MLRefreshSDK/Resources/DropDownRefreshDynamicDiagram.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1140,7 +1140,7 @@
 		000000000D80 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				43132E5B21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif */,
+				43A7B7D321EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif */,
 				000000000D90 /* AnimationFooterView.xib */,
 				000000000DA0 /* Images.xcassets */,
 			);
@@ -1727,8 +1727,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A7B7D421EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif in Resources */,
 				000000001C70 /* MLRefreshSDK.bundle in Resources */,
-				43132E5C21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1736,7 +1736,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43132E5D21EC3E6200980CE0 /* DropDownRefreshDynamicDiagram.gif in Resources */,
+				43A7B7D521EDB20900A4B008 /* DropDownRefreshDynamicDiagram.gif in Resources */,
 				000000001C30 /* AnimationFooterView.xib in Resources */,
 				000000001C40 /* Images.xcassets in Resources */,
 			);
